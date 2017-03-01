@@ -22,10 +22,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    
+#error please download the image then delete this line
     /*
-     图片地址：http://www.eso.org/public/archives/images/publicationtiff/eso1242a.tif
-             http://www.eso.org/public/images/eso1242a/
+     Image URL 
+     
+     http://www.eso.org/public/archives/images/publicationtiff/eso1242a.tif
+     http://www.eso.org/public/images/eso1242a/
      */
     UIImage *bigImage = [UIImage imageNamed:@"eso1242a.tif"];
 //    UIImage *bigImage = [UIImage imageNamed:@"eso1242a_small.jpg"];
